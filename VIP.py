@@ -2,7 +2,6 @@ import asyncio
 import random
 import string
 import logging
-from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext, filters, MessageHandler
 from pymongo import MongoClient
 from datetime import datetime, timedelta, timezone
